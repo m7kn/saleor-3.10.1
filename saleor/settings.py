@@ -90,7 +90,7 @@ DATABASE_CONNECTION_REPLICA_NAME = "default"
 
 DATABASES = {
     DATABASE_CONNECTION_DEFAULT_NAME: dj_database_url.config(
-        default="postgres://saleor:ovyx3cxgdHJ9R4bWoyiCTUSF9dO2c5jg@dpg-cf6idbpa6gdjkk4ih430-a/saleor_oyjk",
+        default="postgres://saleor:saleor@localhost:5432/saleor",
         conn_max_age=DB_CONN_MAX_AGE,
     ),
     # TODO: We need to add read only user to saleor platfrom, and we need to update

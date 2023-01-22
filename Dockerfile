@@ -69,7 +69,4 @@ LABEL org.opencontainers.image.title="mirumee/saleor"                           
   org.opencontainers.image.authors="Saleor Commerce (https://saleor.io)"           \
   org.opencontainers.image.licenses="BSD 3"
 
-RUN python3 manage.py migrate
-RUN python3 manage.py collectstatic --noinput
-
 CMD ["gunicorn", "--bind", ":8000", "--workers", "4", "--worker-class", "saleor.asgi.gunicorn_worker.UvicornWorker", "saleor.asgi:application"]
