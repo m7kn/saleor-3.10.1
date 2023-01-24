@@ -34,6 +34,7 @@ RUN apt-get update \
   libpq5 \
   shared-mime-info \
   mime-support \
+  python3-dev \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
