@@ -119,6 +119,7 @@ pymeta3==0.5.1 ; python_version >= "3.9" and python_version < "3.10"
 pyphen==0.13.2 ; python_version >= "3.9" and python_version < "3.10"
 python-crontab==2.7.1 ; python_version >= "3.9" and python_version < "3.10"
 python-dateutil==2.8.2 ; python_version >= "3.9" and python_version < "3.10"
+python-dev
 python-dotenv==0.21.0 ; python_version >= "3.9" and python_version < "3.10"
 python-http-client==3.3.7 ; python_version >= "3.9" and python_version < "3.10"
 python-json-logger==2.0.4 ; python_version >= "3.9" and python_version < "3.10"
